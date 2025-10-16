@@ -1,0 +1,43 @@
+{
+  "name": "muha-one-dark",
+  "displayName": "Muha One Dark Theme",
+  "description": "A simplified dark theme based on One Dark Pro with reduced syntax highlighting complexity following tonsky.me/blog/syntax-highlighting/",
+  "version": "0.0.2",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "one dark"
+  ],
+  "homepage": "https://github.com/quiomax/muha-one-dark/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/quiomax/muha-one-dark/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quiomax/muha-one-dark.git"
+ },
+  "license": "GPL-3.0-or-later",
+  "preview": true,
+  "contributes": {
+    "themes": [
+      {
+        "label": "Muha One Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/muha-one-dark-color-theme.json"
+      },
+      {
+        "label": "Muha One Dark Gnome",
+        "uiTheme": "vs-dark",
+        "path": "./themes/muha-one-dark-gnome-color-theme.json"
+      }
+    ]
+  },
+  "publisher": "muhaaliss"
+}
