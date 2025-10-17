@@ -1,6 +1,6 @@
 {
-  "name": "muha-one-dark",
-  "displayName": "Muha One Dark Theme",
+  "name": "muha-color",
+  "displayName": "Muha Aliss Color",
   "description": "A simplified dark theme based on One Dark Pro with reduced syntax highlighting complexity following tonsky.me/blog/syntax-highlighting/",
   "version": "0.0.2",
   "icon": "images/icon.png",
@@ -12,30 +12,38 @@
   ],
   "keywords": [
     "theme",
+    "one dark",
     "dark theme",
-    "one dark"
+    "light theme",
+    "gnome theme",
+    "adwaita theme"
   ],
-  "homepage": "https://github.com/quiomax/muha-one-dark/blob/main/README.md",
+  "homepage": "https://github.com/quiomax/muha-one-dark-vsc/blob/main/README.md",
   "bugs": {
-    "url": "https://github.com/quiomax/muha-one-dark/issues"
+    "url": "https://github.com/quiomax/muha-one-dark-vsc/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/quiomax/muha-one-dark.git"
+    "url": "https://github.com/quiomax/muha-one-dark-vsc.git"
  },
   "license": "GPL-3.0-or-later",
   "preview": true,
   "contributes": {
     "themes": [
       {
-        "label": "Muha One Dark",
+        "label": "MAC",
         "uiTheme": "vs-dark",
-        "path": "./themes/muha-one-dark-color-theme.json"
+        "path": "./themes/mac-dark-color-theme.json"
       },
       {
-        "label": "Muha One Dark Gnome",
+        "label": "MAC Gnome",
+        "uiTheme": "vs",
+        "path": "./themes/mac-gnome-color-theme.json"
+      },
+      {
+        "label": "MAC Adwaita",
         "uiTheme": "vs-dark",
-        "path": "./themes/muha-one-dark-gnome-color-theme.json"
+        "path": "./themes/mac-adwaita-color-theme.json"
       }
     ]
   },
